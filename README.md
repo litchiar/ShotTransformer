@@ -1,14 +1,18 @@
 # ShotTransformer
-
-[查看中文版说明](./README_CN.md)
-
 An out-of-the-box tool for identifying video shot types, capable of analyzing videos and recognizing shot sizes, shot angles, and shot motions.
 
 Derived from "Toward Unified and Quantitative Cinematic Shot Attribute Analysis" (with some optimizations)
 https://doi.org/10.3390/electronics12194174
 Dataset from "The Anatomy of Video Editing: A Dataset and Benchmark Suite for AI-Assisted Video Editing" (https://link.springer.com/chapter/10.1007/978-3-031-20074-8_12)
 
-Note: Please download the pretrained models from the **Release** and place them in the pretrained_models directory.
+Note: Please download the pretrained models from the Release and place them in the pretrained_models directory.
+The directory structure is:
+```
+pretrained_models/
+├── ShotTransformerV1_AVE_shot-angle/
+├── ShotTransformerV1_AVE_shot-motion/
+└── ShotTransformerV1_AVE_shot-size/
+```
 
 ## Quick Start
 Use the `sample.py` script to quickly test the project functionality:

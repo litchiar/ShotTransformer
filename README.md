@@ -1,4 +1,6 @@
 # ShotTransformer
+[中文文档](README_CN.md) 
+
 An out-of-the-box tool for identifying video shot types, capable of analyzing videos and recognizing shot sizes, shot angles, and shot motions.
 
 Derived from "Toward Unified and Quantitative Cinematic Shot Attribute Analysis" (with some optimizations)
@@ -10,8 +12,11 @@ The directory structure is:
 ```
 pretrained_models/
 ├── ShotTransformerV1_AVE_shot-angle/
+├─────last.ckpt
 ├── ShotTransformerV1_AVE_shot-motion/
-└── ShotTransformerV1_AVE_shot-size/
+├─────last.ckpt
+├── ShotTransformerV1_AVE_shot-size/
+└─────last.ckpt
 ```
 
 ## Quick Start

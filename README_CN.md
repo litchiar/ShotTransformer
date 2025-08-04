@@ -10,8 +10,11 @@ https://doi.org/10.3390/electronics12194174
 ```
 pretrained_models/
 ├── ShotTransformerV1_AVE_shot-angle/
+├─────last.ckpt
 ├── ShotTransformerV1_AVE_shot-motion/
-└── ShotTransformerV1_AVE_shot-size/
+├─────last.ckpt
+├── ShotTransformerV1_AVE_shot-size/
+└─────last.ckpt
 ```
 
 使用 `sample.py` 脚本可以快速测试项目功能：

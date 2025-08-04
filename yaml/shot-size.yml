@@ -1,0 +1,28 @@
+dataset_name: AVE
+dataset_params:
+  normalize: true
+  use_augment: false
+  downsample_factor: 4
+focal_loss: false
+label_mode: single
+label_type: shot-size
+mode: test
+model: ShotTransformerV1
+optim_params:
+  lr_schedule: exp
+  optim: SGD
+  learning_rate: 0.001
+version: val-size
+model_params: 
+  branch:
+  - static
+  - motion 
+  motion_backbone: mvit
+  difference: conv_diff
+  fixed: interpolate
+  static_backbone: vit
+  static_branch_type: middle
+  hidden_dim: 768
+  input_frame: 4
+  pretrain: true
+

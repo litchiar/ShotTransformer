@@ -1,0 +1,12 @@
+torch
+torchvision
+Pillow
+yaml
+fvcore
+timm
+iopath
+numpy
+pickle
+opencv-python
+tqdm
+einops
